@@ -2,7 +2,7 @@ data:extend({
   {
     type = "assembling-machine",
     name = "burner-assembling-machine",
-    icon = "__no-hand-crafting__/graphics/icons/burner-assembling-machine.png",
+    icon = "__burner-assembling-machine__/graphics/icons/burner-assembling-machine.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "burner-assembling-machine"},
     max_health = 200,
@@ -13,7 +13,7 @@ data:extend({
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "assembling-machine",
     animation = {
-      filename = "__no-hand-crafting__/graphics/entity/burner-assembling-machine/burner-assembling-machine.png",
+      filename = "__burner-assembling-machine__/graphics/entity/burner-assembling-machine/burner-assembling-machine.png",
       priority="high",
       width = 99,
       height = 102,
@@ -40,7 +40,7 @@ data:extend({
       }
     },
     energy_usage = "90kW",
-    ingredient_count = 6,
+    ingredient_count = 1,
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
     close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound = {
@@ -61,7 +61,7 @@ data:extend({
   {
     type = "item",
     name = "burner-assembling-machine",
-    icon = "__no-hand-crafting__/graphics/icons/burner-assembling-machine.png",
+    icon = "__burner-assembling-machine__/graphics/icons/burner-assembling-machine.png",
     flags = {"goes-to-quickbar"},
     subgroup = "production-machine",
     order = "a[assembling-machine-1]",
@@ -79,7 +79,7 @@ data:extend({
   {
     type = "recipe",
     name = "burner-assembling-machine",
-    ingredients = {{"stone-furnace", 1}, {"iron-gear-wheel", 5}},
+    ingredients = {{"stone-furnace", 1}, {"iron-gear-wheel", 5}, {"iron-plate", 5}},
     result = "burner-assembling-machine"
   },
 
