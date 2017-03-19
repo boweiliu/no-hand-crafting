@@ -22,7 +22,7 @@ data:extend({
       shift = {0.25, -0.1}
     },
     crafting_categories = {"crafting"},
-    crafting_speed = 0.25,
+    crafting_speed = 0.2,
     energy_source = {
       type = "burner",
       effectivity = 1,
@@ -39,7 +39,7 @@ data:extend({
         }
       }
     },
-    energy_usage = "90kW",
+    energy_usage = "160kW",
     ingredient_count = 1,
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
     close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
