@@ -1,7 +1,7 @@
 #!/bin/bash
 
 MOD_NAME='burner-assembling-machine'
-VERSION=0.0.1
+VERSION=0.0.2
 CURDIR=`pwd`
 TMPDIR=`mktemp -d /tmp/temp.XXXX`
 echo "$TMPDIR"
